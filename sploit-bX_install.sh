@@ -24,13 +24,13 @@ apt install git -y
 git clone https://github.com/ojasookert/CVE-2017-0781
 git clone https://github.com/ojasookert/CVE-2017-0785
 cd CVE-2017-0781
-echo -e "#! /usr/bin/python2.7\n$(cat CVE-2017-0781.py)" > sploit-b1
+echo -e "#! /usr/bin/python2.7\n\n$(head -2 CVE-2017-0781.py)\nimport sys\n\ntarget = sys.argv[1]\n\ncount = 30000\n" > sploit-b1
+tail -37 CVE-2017-0781.py >> sploit-b1
 chmod +x sploit-b1
 cp sploit-b1 /usr/bin
 cd ../CVE-2017-0785
-echo -e "#! /usr/bin/python2.7\n$(cat CVE-2017-0785.py)" > sploit-b5
+echo -e "#! /usr/bin/python2.7\n\n$(head -2 CVE-2017-0785.py)\nimport sys\n\ntarget = sys.argv[1]\n\n" > sploit-b5
+tail -45 CVE-2017-0785.py >> sploit-b5
 chmod +x sploit-b5
 cp sploit-b5 /usr/bin
-
 echo "[+] Listo"
-sleep 2
