@@ -11,7 +11,11 @@ Entre a la carpeta:
 
 > cd sploit-bx
 
-Ejecute el siguiente comando para la instalación:
+Dé permiso de ejecusión:
+
+> chmod +x sploit-bX_install.sh
+
+Ejecute el instalador:
 
 > ./sploit-bX_install.sh
 
