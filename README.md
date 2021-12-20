@@ -1,5 +1,5 @@
 # sploit-bX
-Bash que instala los sploit CVE-2017-0781 y CVE-2017-0785 y lo necesario para su usos.
+Bash que instala los sploit CVE-2017-0781 y CVE-2017-0785 y lo necesario para su usos. Estos sploit sirven para saber si nuestro bluetooth es vulnerable.
 
 ## Descarga del repositorio
 
@@ -25,7 +25,7 @@ Para usar CVE-2017-0785:
 
 > sploit-b5 XX:XX:XX:XX:XX:XX
 
-Donde "XX:XX:XX:XX:XX:XX" es la dirección mac del bluetooth que se desea atacar.
+Donde "XX:XX:XX:XX:XX:XX" es la dirección MAC del bluetooth que se desea atacar.
 
 ## Importante
-No usar estos sploit de forma ilegar; solo bajo el permiso de la victima y en un entorno controlado.
+No usar estos sploit de forma ilegal; solo bajo el permiso de la victima y en un entorno controlado.
