@@ -19,11 +19,11 @@ Ejecute el siguiente comando para la instalación:
 
 Para usar CVE-2017-0781:
 
-> sploit-b1 TARGET=XX:XX:XX:XX:XX:XX
+> sploit-b1 XX:XX:XX:XX:XX:XX
 
 Para usar CVE-2017-0785:
 
-> sploit-b5 TARGET=XX:XX:XX:XX:XX:XX
+> sploit-b5 XX:XX:XX:XX:XX:XX
 
 Donde "XX:XX:XX:XX:XX:XX" es la dirección mac del bluetooth que se desea atacar.
 
