@@ -32,4 +32,4 @@ Para usar CVE-2017-0785:
 Donde "XX:XX:XX:XX:XX:XX" es la dirección MAC del bluetooth que se desea atacar.
 
 ## Importante
-No usar estos sploit de forma ilegal; solo bajo el permiso de la victima y en un entorno controlado.
+No usar estos sploit de forma ilegal; solo bajo el permiso de la víctima y en un entorno controlado.
