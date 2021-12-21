@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Actor: DannyHack
+#Autor: DannyHack
 
 export DEBIAN_FRONTEND=noninteractive
 
